@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 /*Setup default data*/
-var endpoint = 'https://maps.googleapis.com/maps/api/directions/json?origin=CentralWorld,th&destination=SCG%20Bangsue,th&key=AIzaSyCnKI9QK7b04jAHeb-gR_6hulBzAfa_JgQ';
+var endpoint = 'https://maps.googleapis.com/maps/api/directions/json?origin=SCG%20Bangsue,th&destination=CentralWorld,th&language=th&key=AIzaSyCnKI9QK7b04jAHeb-gR_6hulBzAfa_JgQ';
 
 class googleApiService{
     async get() {

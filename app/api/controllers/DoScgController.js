@@ -39,7 +39,7 @@ class DoScgController {
         const c = -21 - a;
         let response = {
             "question": "A = 21, A + B = 23, A + C = -21",
-            "data": {
+            "response": {
                 "A": a,
                 "B": b,
                 "C": c
@@ -59,6 +59,10 @@ class DoScgController {
         } catch (err) {
             return next(err);
         }
+    }
+    //Please create a small project using Line messaging API for getting a notification when your Line Bot can not answer a question to the customer more than 10 second
+    async curlApiMessageLine(req, res, next){
+
     }
 }
 
