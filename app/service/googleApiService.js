@@ -5,15 +5,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 /*Setup default data*/
-const endpoint = `${process.env.GOOGLE_MAP_ENDPOINT}` + 'maps/api/directions/json';
-const token = `${process.env.GOOGLE_MAP_TOKEN}`;
+var endpoint = 'https://maps.googleapis.com/maps/api/directions/json?origin=CentralWorld,th&destination=SCG%20Bangsue,th&key=AIzaSyCnKI9QK7b04jAHeb-gR_6hulBzAfa_JgQ';
 
 class googleApiService{
-    async get(params) {
-        params['token'] = token;
-        return await axios.get(`${endpoint}`, {
-            params: params
-        })
+    async get() {
+        return await axios.get(`${endpoint}`)
             .then(function (response) {
                 let res = {
                     'status': response.status,

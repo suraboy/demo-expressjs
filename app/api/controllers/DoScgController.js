@@ -52,11 +52,7 @@ class DoScgController {
 //Please use “Google API” for finding the best way to go to Central World from SCG Bangsue
     async curlApiGoogleMap(req, res, next) {
         try {
-            let params = {
-                'origin': 'SCG Bangsue',
-                'destination': 'Central World'
-            };
-            const response = await googleApiService.get(params);
+            const response = await googleApiService.get();
 
             return res.status(response.status).send(response);
 

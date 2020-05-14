@@ -4,7 +4,6 @@
     <list default="true" id="13f5e3a3-487d-4fa0-84c4-27424c8a7827" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Horeca/horeca-api-payment/app/request/weomni/payment/online/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Horeca/horeca-api-payment/app/request/weomni/payment/online/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Horeca/horeca-api-payment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Horeca/horeca-api-payment/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +17,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -164,16 +150,15 @@
       <workItem from="1589365487893" duration="870000" />
       <workItem from="1589367459841" duration="9532000" />
       <workItem from="1589386772921" duration="492000" />
-      <workItem from="1589388241579" duration="14360000" />
+      <workItem from="1589388241579" duration="14629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26917000" />
+    <option name="totallyTimeSpent" value="27186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
