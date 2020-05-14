@@ -60,10 +60,6 @@ class DoScgController {
             return next(err);
         }
     }
-    //Please create a small project using Line messaging API for getting a notification when your Line Bot can not answer a question to the customer more than 10 second
-    async curlApiMessageLine(req, res, next){
-
-    }
 }
 
 const checkValue = async (i, j , action) => {
